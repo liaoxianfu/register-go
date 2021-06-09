@@ -1,9 +1,9 @@
 package grpc_resolver
 
 import (
+	register "github.com/liaoxianfu/register-go"
 	"google.golang.org/grpc/resolver"
 	"log"
-	register "register-go"
 )
 
 type GrpcResolver struct {

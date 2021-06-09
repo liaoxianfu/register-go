@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	register "github.com/liaoxianfu/register-go"
+	"github.com/liaoxianfu/register-go/etcd_register"
 	"io/ioutil"
 	"log"
 	"net/http"
-	register "register-go"
-	"register-go/etcd_register"
 	"time"
 )
 

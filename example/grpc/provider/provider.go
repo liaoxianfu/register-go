@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
+	"github.com/liaoxianfu/register-go/etcd_register"
+	"github.com/liaoxianfu/register-go/example/grpc/pb"
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	"register-go/etcd_register"
-	"register-go/example/grpc/pb"
 	"time"
 )
 

@@ -2,13 +2,13 @@ package main
 
 import (
 	"context"
+	"github.com/liaoxianfu/register-go/etcd_register"
+	"github.com/liaoxianfu/register-go/example/grpc/pb"
+	"github.com/liaoxianfu/register-go/grpc_resolver"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/resolver"
 	"log"
 	"net/http"
-	"register-go/etcd_register"
-	"register-go/example/grpc/pb"
-	"register-go/grpc_resolver"
 	"time"
 )
 

@@ -2,7 +2,7 @@ package etcd_register
 
 import (
 	"github.com/google/uuid"
-	register "register-go"
+	register "github.com/liaoxianfu/register-go"
 	"sync"
 )
 

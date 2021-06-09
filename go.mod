@@ -1,4 +1,4 @@
-module register-go
+module  github.com/liaoxianfu/register-go
 
 go 1.14
 
